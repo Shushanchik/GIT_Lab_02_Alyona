@@ -20,14 +20,14 @@ if function == 'circle':
     r = int(input())
     s, l = circle(r)
     print('s = ', s, '\nl = ', l)
-elif function == 'rectangle':
+elif function == 'triangle':
     print('Введите стороны треугольника: ')
     a = int(input())
     b = int(input())
     c = int(input())
     s, l = triangle(a, b, c)
     print('s = ', s, '\nl = ', l)
-elif function == 'triangle':
+elif function == 'rectangle':
     print('Введите стороны прямоугольника: ')
     a = int(input())
     b = int(input())

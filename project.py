@@ -9,6 +9,11 @@ def triangle(a, b, c):
     s = int((p * (p - a) * (p - b) * (p - c))**0.5)
     return (s, l)
 
+def rectangle(a, b):
+    l = (a + b) * 2
+    s = a * b
+    return (s, l)
+
 function = input()
 if function == 'circle':
     print('Введите радиус окружности: ')
@@ -22,3 +27,12 @@ elif function == 'rectangle':
     c = int(input())
     s, l = triangle(a, b, c)
     print('s = ', s, '\nl = ', l)
+elif function == 'triangle':
+    print('Введите стороны прямоугольника: ')
+    a = int(input())
+    b = int(input())
+    s, l = rectangle(a, b)
+    print('s = ', s, '\nl = ', l)
+
+
+ 

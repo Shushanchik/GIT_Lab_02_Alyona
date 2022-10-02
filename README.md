@@ -13,3 +13,4 @@
 Потом исправляем программу в ветке **hotfix\1.2.1** и сливаем эту ветку с **develop** и **main**. Готово:)
 
 ![Alt text](https://github.com/alyonka344/-/blob/main/pwa_list_rect_1280_35b06e2bd3403fb2d4748e36b1e25189.png)
+

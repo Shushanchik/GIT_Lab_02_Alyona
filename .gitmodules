@@ -1,0 +1,3 @@
+[submodule "GIT_Lab_02_Submodule"]
+	path = GIT_Lab_02_Submodule
+	url = https://github.com/Shushanchik/GIT_Lab_02_Submodule.git
